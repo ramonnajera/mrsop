@@ -18,15 +18,21 @@
         </ul>
         </div>
         <div class="col-lg-4">
-            <h5>Enterate de ofertas exclusivas en nuestro newsletter</h5>
-            <form action="">
-                <div class="input-group">
-                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo aqui">
-                    <span class="input-group-btn">
-                        <button type="submit" class="btn"> Suscribirse</button>
-                    </span>
+            <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                <form action="https://mrsop.us2.list-manage.com/subscribe/post?u=5d9ae23a8ad639de1417b8a5e&amp;id=e08be83764" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <h5 for="mce-EMAIL">Enterate de ofertas exclusivas en nuestro newsletter</h5>
+                    <div id="mc_embed_signup_scroll" class="input-group">
+                        
+                        <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5d9ae23a8ad639de1417b8a5e_e08be83764" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Suscribirse" name="subscribe" id="mc-embedded-subscribe" class="button btn"></div>
+                    </div>
+                </form>
                 </div>
-            </form>
+
+            <!--End mc_embed_signup-->
             <h5 class="mt-4">Visita nuestras redes sociales</h5>
             <div class="d-flex justify-content-between">
                 <a href=""><p><i class="fab fa-facebook-square"></i> Facebook</p></a>
