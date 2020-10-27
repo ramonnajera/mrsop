@@ -5,16 +5,18 @@ window.addEventListener("load", function(){
     
 });
 
-
-
-document.addEventListener("DOMContentLoaded", function(event) {
-    window.addEventListener("resize", ResizeWindow);
-    function ResizeWindow(){
-    var dataSpyList =[].slice.call(document.querySelectorAll('[data-spy="scroll"]'));
-    dataSpyList.forEach(function(dataSpyElement){
-        bootstrap.ScrollSpy.getInstance( dataSpyElement).refresh();
-    });
-}
+document.addEventListener("DOMContentLoaded", ()=> {
+    // cerrar navbar menu mobile al hacer click en un link
+    let subbar = document.getElementById("navbarSupportedContent");
+    let menu = document.getElementById("btnmenu");
+    for (let navItem of document.querySelectorAll("a.nav-link")) {
+        navItem.addEventListener("click", ()=> {
+            menu.classList.remove("opened");
+            menu.classList.add("collapsed");
+            menu.setAttribute("aria-expanded", false);
+            subbar.classList.remove("show");
+        });
+        }
     // header animacion
     document.getElementById("home").firstElementChild.classList.add("fade-in-top");
 

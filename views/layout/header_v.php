@@ -8,24 +8,24 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- css-bootstrap-5.0.0 -->
-    <link rel="stylesheet" href="assets/lib/bootstrap-5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url?>assets/lib/bootstrap-5.0.0/css/bootstrap.min.css">
     <!-- css-style -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="<?=base_url?>assets/css/main.css">
     <title>MRSOP</title>
 </head>
-<body data-spy="scroll" data-target="#pnavbar" data-offset="0">
+<body data-spy="scroll" data-target="#pnavbar" data-offset="50">
     <!-- preloader -->
     <div class="loader" id="loader">
         <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
     </div>
     <!-- navbar -->
-    <nav id="pnavbar" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav id="pnavbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid d-flex flex-row">
-            <a href="#" class="navbar-brand">
+            <a href="<?=base_url?>" class="navbar-brand">
                 <img src="assets/img/logoh.svg" alt="" width="150">
             </a>
 
-            <button class="navbar-toggler menu" 
+            <button class="navbar-toggler menu" id="btnmenu"
             onclick="this.classList.toggle('opened');
             this.setAttribute('aria-expanded', this.classList.contains('opened'))" 
             type="button" 

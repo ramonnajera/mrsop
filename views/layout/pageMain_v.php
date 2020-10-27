@@ -11,7 +11,7 @@
                         <div class="row">
                                 <div class="col-md-4">
                                     <div class="card">
-                                        <img src="assets/img/v_honestidad.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/v_honestidad.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Honestidad</h5>
                                             <p class="card-text">Creemos en crear lazos verdaderos anteponiendo la verdad ante todo.</p>
@@ -20,7 +20,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card">
-                                        <img src="assets/img/v_pasion.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/v_pasion.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Pasión</h5>
                                             <p class="card-text">Nos gusta lo que hacemos por eso lo hacemos, es lo que somos.</p>
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card">
-                                        <img src="assets/img/v_scliente.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/v_scliente.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title text-center">Servicio al cliente</h5>
                                             <p class="card-text">Nuestros clientes son lo importante, estamos aqui para servirle.</p>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 text-center d-none d-lg-block">
-                        <video src="assets/videos/vid1.mp4" muted autoplay loop></video>
+                        <video src="<?=base_url?>assets/videos/vid1.mp4" muted autoplay loop></video>
                     </div>
                 </div>
                 <div class="row pt-3 w-md-50 mx-auto my-3 p-4" id="mision_y_vision">
@@ -77,7 +77,7 @@
                             <div class="card-deck slider_container">
                                 <div class="item" data-att="cat1">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio1.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio1.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="item" data-att="cat2">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio2.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio2.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
@@ -93,7 +93,7 @@
                                 </div>
                                 <div class="item" data-att="cat3">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio3.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio3.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="item" data-att="cat4">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio5.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio5.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
@@ -109,7 +109,7 @@
                                 </div>
                                 <div class="item" data-att="cat1">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio5.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio5.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="item" data-att="cat2">
                                     <div class="card card-border" style="width: 18rem;">
-                                        <img src="assets/img/servicio6.png" class="card-img-top" alt="...">
+                                        <img src="<?=base_url?>assets/img/servicio6.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
