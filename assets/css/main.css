@@ -344,6 +344,11 @@ span.resaltar{
     height: 700px;
 }
 
+#nosotros .card img{
+    max-width: 150px;
+    align-self: center;
+}
+
 #mision_y_vision{
     border: solid 10px;
     /* border-image: linear-gradient(120deg, var(--color-marca) 0%, var(--color-marca-action) 100%); */

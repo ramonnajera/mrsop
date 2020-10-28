@@ -8,16 +8,16 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- css-bootstrap-5.0.0 -->
-    <link rel="stylesheet" href="<?=base_url?>assets/lib/bootstrap-5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url?>/assets/lib/bootstrap-5.0.0/css/bootstrap.min.css">
     <!-- css-style -->
-    <link rel="stylesheet" href="<?=base_url?>assets/css/main.css">
+    <link rel="stylesheet" href="<?=base_url?>/assets/css/main.css">
     <title>MRSOP</title>
 </head>
 <body data-spy="scroll" data-target="#pnavbar" data-offset="50">
     <!-- preloader -->
-    <div class="loader" id="loader">
+    <!-- <div class="loader" id="loader">
         <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-    </div>
+    </div> -->
     <!-- navbar -->
     <nav id="pnavbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid d-flex flex-row">
@@ -51,44 +51,3 @@
             </div>
         </div>
     </nav>
-
-    <!-- header -->
-    <header class="container-fluid pb-5" id="home">
-        <div class="row">
-            <div class="col-lg-4 align-self-center my-3">
-                <h1>Somos un departamento de sistemas para
-                    <div class="animate-text">
-                        <span>tu casa</span>
-                        <span>tu empresa</span>
-                    </div>
-                </h1>
-                <p>Solo tienes que preocupate de tu trabajo, nosotros nos ocupamos de que todo funcione.</p>
-                <a href="#contacto" class="btn">Contactanos sin compromiso</a>
-            </div>
-            <div class="col-lg-8">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators d-flex flex-column">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <h1 class="slide-number display-1 position-absolute text-light font-weight-bold d-none d-sm-block">01</h1>
-                        <img src="assets/img/slider_1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <h1 class="slide-number display-1 position-absolute text-light font-weight-bold d-none d-sm-block">02</h1>
-                        <img src="assets/img/slider_2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <h1 class="slide-number display-1 position-absolute text-light font-weight-bold d-none d-sm-block">03</h1>
-                        <img src="assets/img/slider_3.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </header>
-    
-    <main>

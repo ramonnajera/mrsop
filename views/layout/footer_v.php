@@ -49,9 +49,9 @@
 </footer>
 
 <!-- js-bootstrap-5.0.0 -->
-<script src="assets/lib/bootstrap-5.0.0/js/bootstrap.min.js"></script>
-<script src="assets/lib/popper-js/popper.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="<?=base_url?>/assets/lib/bootstrap-5.0.0/js/bootstrap.min.js"></script>
+<script src="<?=base_url?>/assets/lib/popper-js/popper.min.js"></script>
+<script src="<?=base_url?>/assets/js/main.js"></script>
 <!-- js-file -->
 </body>
 </html>
