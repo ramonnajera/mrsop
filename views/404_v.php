@@ -1,1 +1,3 @@
-<h1>ERROR 404 desde error controller</h1>
+<div class="container esp-nav">
+    <h1>Error 404 no encontrado</h1>
+</div>
