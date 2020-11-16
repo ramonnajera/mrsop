@@ -104,7 +104,7 @@
                     <h3>Filtros</h3>
                     <div class="filters">
                         <ul>
-                            <li class="active">all</li>
+                            <li class="active">Todos</li>
                             <li>cat1</li>
                             <li>cat2</li>
                             <li>cat3</li>
@@ -119,7 +119,8 @@
                                 <div class="card card-border" style="width: 18rem;">
                                     <img src="<?=base_url?>/assets/img/servicio1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Consultoría en tecnologías de la información</h6>
+                                        <p class="card-text">Servicio de consultoria en seleccion e implementacion de sistemas o equipos informaticos enfocado en sus requerimientos.</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +128,8 @@
                                 <div class="card card-border" style="width: 18rem;">
                                     <img src="<?=base_url?>/assets/img/servicio2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Mantenimiento preventivo y correctivo a equipo de cómputo</h6>
+                                        <p class="card-text">Identificacion y prevencion de fallas en software y hardware que afecte el fucionamiento y rendimmiento de su equipo.</p>
                                     </div>
                                 </div>
                             </div>
@@ -135,15 +137,17 @@
                                 <div class="card card-border" style="width: 18rem;">
                                     <img src="<?=base_url?>/assets/img/servicio3.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Instalación, configuración y mantenimiento de redes</h6>
+                                        <p class="card-text">Instalacion,venta y configuracion de equipos o suministros especializados en conectividad y compartido de recursos en red.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item" data-att="cat4">
                                 <div class="card card-border" style="width: 18rem;">
-                                    <img src="<?=base_url?>/assets/img/servicio5.png" class="card-img-top" alt="...">
+                                    <img src="<?=base_url?>/assets/img/servicio4.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Venta de equipos de cómputo y accesorios</h6>
+                                        <p class="card-text">Venta de computadoras de escritorio, laptops e impresoras de ultima generacion asi como accesorios.</p>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +155,8 @@
                                 <div class="card card-border" style="width: 18rem;">
                                     <img src="<?=base_url?>/assets/img/servicio5.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Instalación, configuración y mantenimiento de equipo CCTV</h6>
+                                        <p class="card-text">Venta, instalacion, configuracion y mantenimiento en camaras de circuito cerrado interior o exterior.</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +164,21 @@
                                 <div class="card card-border" style="width: 18rem;">
                                     <img src="<?=base_url?>/assets/img/servicio6.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6>Soporte técnico y soporte avanzado en servidores.</h6>
+                                        <p class="card-text">Asistencia fisica en servidores asi como venta, configuracion y gestion de los mismos en windows server.</p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="item" data-att="cat1">
+                                <div class="card card-border" style="width: 18rem;">
+                                    <img src="<?=base_url?>/assets/img/servicio7.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h6>Distribucion oficial en sistemas CONTPAQi</h6>
+                                        <p class="card-text">Venta, instalacion, configuracion y soporte certificado en sistemas CONTPAQi asi como renovacion de licencias.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>

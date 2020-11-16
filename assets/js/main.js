@@ -66,7 +66,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
                 show.classList.add("fade-out-left");
                 show.style.display = "none";
                 let services = item.textContent.toLowerCase();
-                if(show.getAttribute("data-att") === services || services === "all"){
+                console.log(servicios);
+                if(show.getAttribute("data-att") === services || services === "todos"){
                     show.classList.add("fade-in-left");
                     show.style.display = "inline-block";
                 }
