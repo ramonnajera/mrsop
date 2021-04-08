@@ -15,9 +15,9 @@
 </head>
 <body data-spy="scroll" data-target="#pnavbar" data-offset="50">
     <!-- preloader -->
-    <div class="loader" id="loader">
+    <!-- <div class="loader" id="loader">
         <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-    </div>
+    </div> -->
     <!-- navbar -->
     <nav id="pnavbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid d-flex flex-row">
