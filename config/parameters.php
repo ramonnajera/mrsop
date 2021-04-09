@@ -2,7 +2,7 @@
 
 // produccion
 define('base_url','https://mrsop.com');
-define('controller_default', 'pageController');
+define('controller_default', 'PageController');
 define('action_default', 'index');
 
 
