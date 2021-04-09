@@ -8,5 +8,5 @@ define('action_default', 'index');
 
 // local
 // define('base_url','http://localhost/mrsop');
-// define('controller_default', 'pageController');
+// define('controller_default', 'PageController');
 // define('action_default', 'index');
