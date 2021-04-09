@@ -1,7 +1,7 @@
 <?php
 
 // produccion
-define('base_url','http://mrsop.com');
+define('base_url','https://mrsop.com');
 define('controller_default', 'pageController');
 define('action_default', 'index');
 
